@@ -4,15 +4,15 @@ matrix = np.array([[1, 'Tim'], [2, 'Joey'], [3, 'Johnny'], [4, 'Frank']])
 print(vector)
 print(matrix)
 print(matrix[1][1])
-print(matrix[:,1])
+print(matrix[:, 1])
 
 # 自动构架一个多行多列的array对象
 a = np.arange(15).reshape(3, 5)
 print(a)
 print(a.shape)  # 获取numpy中数组的维度
 
-#nfl = np.genfromtxt("E:/numpy/data/price.csv", dtype='U75', skip_header=1, delimiter=",")
-#print(nfl)
+# nfl = np.genfromtxt("E:/numpy/data/price.csv", dtype='U75', skip_header=1, delimiter=",")
+# print(nfl)
 
 mat = np.array([
     [5, 10, 15],
