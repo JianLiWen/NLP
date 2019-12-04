@@ -1,4 +1,4 @@
-#使用中括号匹配多个字符
+# 使用中括号匹配多个字符
 #“[bcr]at”代表的是bat,cat,rat
 
 import re
